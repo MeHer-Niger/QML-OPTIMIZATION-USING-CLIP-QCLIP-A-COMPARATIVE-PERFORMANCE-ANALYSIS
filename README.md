@@ -22,7 +22,7 @@ This repository contains two implementations of the CLIP model — one classical
 
 ## 🧪 Technologies Used
 
-- 🤗 Transformers (CLIP Model)
+- Transformers (CLIP Model)
 - Torch (PyTorch)
 - Datasets (HuggingFace)
 - PennyLane & PennyLane-Qiskit (Quantum processing)
@@ -42,6 +42,7 @@ This repository contains two implementations of the CLIP model — one classical
 ## 🚀 How to Run
 
 **🧠 Classical CLIP**
+   
     ```bash
     python clip_implementation.py
 
@@ -51,6 +52,7 @@ This repository contains two implementations of the CLIP model — one classical
 - Plots results and accuracy
 
 **🧠 Quantum CLIP (qCLIP)**
+    
     ```bash
     python qclip_implementation.py
 
