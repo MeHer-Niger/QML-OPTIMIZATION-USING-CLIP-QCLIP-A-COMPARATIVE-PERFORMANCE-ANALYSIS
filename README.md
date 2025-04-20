@@ -81,8 +81,10 @@ This repository contains two implementations of the CLIP model — one classical
 ## 📈 Accuracy Evaluation
 
 After matching 50 images using cosine similarity:
-Accuracy (percentage of top-k matches with the correct label)
-accuracy = (max_occurrences(label_arr) / top_k) * 100
+    
+    ```python
+    #Accuracy (percentage of top-k matches with the correct label)
+    accuracy = (max_occurrences(label_arr) / top_k) * 100
 
 ---
 
